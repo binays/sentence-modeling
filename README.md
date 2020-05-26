@@ -61,7 +61,7 @@ Text1 is the input sentence. Annotation1 is the POS annotation for the input sen
 Since, We plan to do a version where target answer is hidden, there is some work to do to convert this dataset to make it appropriate for our purpose.
 
 ```
-papers/ folder contains the reference papers using in this research.  
+papers/ folder contains the reference papers used in this research.  
 papers/question generation contains existing recent papers about the question generation task
 papers/transformer-networks contains papers about transformer architecture and other improvements to it.
 remaining papers in papers/ are about paraphrase identification
