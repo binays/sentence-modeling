@@ -59,6 +59,16 @@ The data format is:
 ```
 Text1 is the input sentence. Annotation1 is the POS annotation for the input sentence. Text2 is the desired question for the input. Annotation2 is the POS annotation for the question. Text3 is the target answer.
 Since, We plan to do a version where target answer is hidden, there is some work to do to convert this dataset to make it appropriate for our purpose.
+
+```
+papers/ folder contains the reference papers using in this research.  
+papers/question generation contains existing recent papers about the question generation task
+papers/transformer-networks contains papers about transformer architecture and other improvements to it.
+remaining papers in papers/ are about paraphrase identification
+src/ folder contains all the source code. 
+src/models contains LSTM and Convolutional models for paraphrase Identification
+```
+
 ### References
 [1] [Du, Xinya, Junru Shao, and Claire Cardie. "Learning to ask: Neural question generation for reading comprehension." arXiv preprint arXiv:1705.00106 (2017).](https://github.com/binays/sentence-pair-modeling/blob/master/papers/question%20generation/1705.00106.pdf)
 
